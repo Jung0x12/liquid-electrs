@@ -6,7 +6,7 @@ use std::collections::{BTreeSet, HashMap};
 #[cfg(feature = "liquid")]
 lazy_static! {
     static ref REGTEST_INITIAL_ISSUANCE_PREVOUT: Txid =
-        "50cdc410c9d0d61eeacc531f52d2c70af741da33af127c364e52ac1ee7c030a5"
+        "bdb0a795c9b095d70ef1527d7ffd38aeedd3cd3acd3b04a566f018bd54318e90"
             .parse()
             .unwrap();
     static ref TESTNET_INITIAL_ISSUANCE_PREVOUT: Txid =
